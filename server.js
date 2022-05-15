@@ -31,7 +31,7 @@ mongoose
 
 app.use("/ctse/api/supplier", supplierRoutes);
 app.get("/ctse/home", (req, res) => {
-  res.send("Hello from supplier_management_ms!!");
+  res.send("Hello from supplier_management_ms!!!");
 });
 
 //event loop for server
