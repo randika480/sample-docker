@@ -5,7 +5,7 @@ metadata:
   labels:
     app: ctse-app
 spec:
-  replicas: 3
+  replicas: 2
   selector:
     matchLabels:
       app: ctse-app
@@ -15,7 +15,7 @@ spec:
         app: ctse-app
     spec:
       containers:
-        - name: ctse-app
+        - name: supplier-management-ms
           image: randi480/supplier_management_ms:v2
           imagePullPolicy: Always
           ports:
